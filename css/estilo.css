@@ -251,7 +251,7 @@ a{
     }
 
     .carousel-inner img{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         height: 240px;
     }
 
@@ -289,7 +289,7 @@ a{
         /* margin-left: auto; */
         /* margin: 30px auto auto auto; */
         /* margin-right: auto; */
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     .card-title{
@@ -297,7 +297,7 @@ a{
     }
 
     #prevenda{
-        height: 150px;
+        height: 200px;
     }
 
     #subbanner2{
