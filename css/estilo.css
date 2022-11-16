@@ -101,6 +101,34 @@ a{
     justify-content: center;
 }
 
+.banner-produtos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: center;
+}
+
+.superiorprodutos{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#paginas{
+    margin-top: 12px;
+    height: 50px;
+    /* border: 1px solid red; */
+}
+
 #subbanner2{
     width: 40%;
     height: 150px;
@@ -116,6 +144,16 @@ a{
 
 
 .cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cards2{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -214,7 +252,20 @@ a{
     flex-wrap: wrap;
     margin: 8px;
     font-family: sans-serif;
-    border: 1px solid green;
+    cursor: pointer;
+    transition: all 0.5s;
+    border: none;
+  }
+
+  .cardp{
+    width: 213px;
+    align-items: center;
+    display: table;
+    vertical-align: middle;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 8px;
+    font-family: sans-serif;
     cursor: pointer;
     transition: all 0.5s;
     border: none;
@@ -290,6 +341,14 @@ a{
         /* margin-right: auto; */
         /* border: 1px solid red; */
     }
+    .cardp{
+        width: 160px;
+        height: 180px;
+        /* margin-left: auto; */
+        /* margin: 30px auto auto auto; */
+        /* margin-right: auto; */
+        /* border: 1px solid red; */
+    }
 
     .card-title{
         font-size: 14px;
@@ -301,5 +360,16 @@ a{
 
     #subbanner2{
         width: 50%;
+    }
+
+    .superiorprodutos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        /* border: 1px solid red; */
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
     }
 }
