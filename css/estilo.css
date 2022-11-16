@@ -111,8 +111,26 @@ a{
     justify-content: center;
 }
 
+.banner-produtos img{
+    width: 80%;
+    height: 200px;
+    /* border: 1px solid red; */
+}
+
 .superiorprodutos{
     margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.inferiorprodutos{
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -129,15 +147,48 @@ a{
     /* border: 1px solid red; */
 }
 
+.pagination{
+    border-color: #6c757d;
+}
+
 #subbanner2{
     width: 40%;
-    height: 150px;
+    height: 100px;
 }
 
 #prevenda{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
-    height: 250px;
-    margin-bottom: 16px;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: center;
+}
+
+#prevenda2{
+    /* border: 1px solid red; */
+    border-color: #6c757d;
+    width: 80%;
+    height: 200px;
+}
+
+#finalhome{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: center;
+}
+
+#finalhome2{
+    /* border: 1px solid red; */
+    border-color: #6c757d;
+    width: 80%;
+    height: 200px;
 }
 
 /* CARDS */
@@ -370,6 +421,13 @@ a{
         /* border: 1px solid red; */
         align-items: center;
         justify-content: center;
-        gap: 10px;
+        gap: 5px;
+    }
+
+    .banner-produtos img{
+        width: 100%;
+    }
+    #prevenda2{
+        width: 100%;
     }
 }
