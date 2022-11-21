@@ -18,5 +18,6 @@ $(document).ready(function() {
     $(".overlay").removeClass("visible");
   });
 
+  $('.dropdown-toggle').dropdown()
   
 });
